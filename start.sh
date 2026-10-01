@@ -80,7 +80,7 @@ case "$modo" in
     --gui)
         iniciar_gui
         ;;
-    --cli)
+    --cli) 
         iniciar_cli
         ;;
     --backend)

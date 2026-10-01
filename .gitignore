@@ -1,0 +1,21 @@
+# Ambientes / segredos
+.env
+backend/.env
+frontend/.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Dados locais do agente
+backend/chroma_db/
+backend/agente_falhas.log
+
+# Sistema
+.DS_Store
